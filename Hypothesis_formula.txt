@@ -1,0 +1,9 @@
+
+Linear Regression Model
+
+DEC =
+
+     -0.1994 * JAN +
+      0.122  * MAR +
+      0.1528 * APR +
+      9.6105

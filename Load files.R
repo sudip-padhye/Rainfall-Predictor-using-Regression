@@ -1,0 +1,17 @@
+load_files<-function()
+{
+  source("Access data.R")
+  source("Forecast by Regression.R")
+  source("Forecast by Lagranges.R")
+  source("Forecast by Linear Regression.R")
+  source("Display Descriptive Analysis.R")
+  source("Draw plot.R")
+  source("Display Forecast result.R")
+  source("Forecast by WEKA Time Series Function.R")
+  source("Dataset Subset Creator.R")
+  source("Package test and install.R")
+  source("Forecasted data write to file.R")
+  pkgTest_and_install("RWeka")
+  pkgTest_and_install("stringr")
+  pkgTest_and_install("stringi")
+}
